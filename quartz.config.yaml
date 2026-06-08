@@ -17,19 +17,19 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: IBM Plex Sans KR
+      body: IBM Plex Sans KR
       code: IBM Plex Mono
     colors:
       lightMode:
         light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        lightgray: "#e8e2df"
+        gray: "#b3aaa6"
+        darkgray: "#4e4a48"
+        dark: "#2b2826"
+        secondary: "#dd6b4d"
+        tertiary: "#e89980"
+        highlight: rgba(221, 107, 77, 0.10)
         textHighlight: "#fff23688"
       darkMode:
         light: "#161618"
@@ -37,9 +37,9 @@ configuration:
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        secondary: "#f08a6e"
+        tertiary: "#e89980"
+        highlight: rgba(240, 138, 110, 0.12)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
